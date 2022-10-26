@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="challenge.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 contenu">
+                <h6 class="awesome">Awesome</h6>
+                <ul class="menu">
+                    <li class="list"><a href="javascript:void(0);" onclick='fct1()' id="active1" class="active"> List</a></li>
+                    <li><a href="javascript:void(0);" onclick='fct2()'  id="active2"> Add New</a></li>
+                    <li><a href="javascript:void(0);" onclick='fct3()'  id="active3"> Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 date-heure">
+    </div>
+
+    <div style="display:block ;" id="list" class="contenu-list">
+        <h3>All awesome books</h3>
+        <div style="background-color:rgba(128, 128, 128, 0.385);; margin-top: 30px; display: none;" class="remove" id="remove">
+        </div>
+    </div>
+
+    <div style="display:none ;" id="new" class="contenuGlobal">
+        <div class="contenu-list">
+            <h3>Add a new book</h3>
+        </div>
+    
+        <div  class="formulaire" id="form" >
+            <input type="text" placeholder="Title" name="" id="Title" class="espace">
+            <input type="text" placeholder="Author" name="" id="Author" class="espace">
+            <button onclick="msg()" class="button" >Add</button>
+        </div>
+    </div>
+
+    <div style="display:none ;" id="contact" class="contenuContact">
+        <div class="contenu-list">
+            <h3>Contact information</h3>
+        </div>
+        <div class="contenu-contact">
+            <p>Do you have any questions or just want to say "Hello"? <br>
+                You can reach out to us!</p>
+        </div>
+        <div class="contenu-detail">
+            <p>
+                <ul>
+                    <li>Our email :<a href="mailto:hounsounorma@gmail.com"> hounsounorma@gmail.com</a></li>
+                    <li>Our phone number: +22994439834</li>
+                    <li>Our address: Cotonou, Benin</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <footer style="background-color: rgba(128, 128, 128, 0.385);">
+        <p>Copyright 2022 Awesome Books</p>
+        "."
+        <p>All Rights Reserved</p>
+    </footer>
+
+    
+
+
+
+
+
+
+    <script src="./challenge.js"></script>
+</body>
+</html>
