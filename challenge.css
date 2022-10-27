@@ -78,16 +78,27 @@ a:hover{
     width: 55px !important;
 }
 .menu .active{
-    color: red;
+    color: blue;
 }
 
 .remove{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* align-self: center; */
+    width: 80%;
+    margin: 10px 60px auto;
+    padding: 5px;
+}
+.remove1{
+    background-color: rgba(128, 128, 128, 0.385);
 }
 .btn1{
     padding: 5px;
     font-size: 12px;
+}
+#nouveau{
+    display: flex;
+    justify-content: space-between;
 }
 
 footer{
